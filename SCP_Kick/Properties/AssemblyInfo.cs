@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("SCP_Kick")]
-[assembly: AssemblyDescription("EXLIED plugin to kick members without a specific permission.")]
+[assembly: AssemblyDescription("EXILED plugin to kick members without a specific permission.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("TenDRILLL")]
 [assembly: AssemblyProduct("SCP_Kick")]
