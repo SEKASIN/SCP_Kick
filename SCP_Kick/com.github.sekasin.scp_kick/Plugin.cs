@@ -2,7 +2,7 @@
 using Exiled.API.Features;
 using Player = Exiled.Events.Handlers.Player;
 
-namespace SCP_Kick.com.github.tendrilll.scp_kick {
+namespace SCP_Kick.com.github.sekasin.scp_kick {
     public class SCP_Kick : Plugin<Config> {
         public override string Name => "SCP_Kick";
         public override string Author => "TenDRILLL";
