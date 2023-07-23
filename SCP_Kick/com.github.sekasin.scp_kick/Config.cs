@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel;
 using Exiled.API.Interfaces;
 
-namespace SCP_Kick.com.github.tendrilll.scp_kick {
+namespace SCP_Kick.com.github.sekasin.scp_kick {
     public sealed class Config : IConfig {
         [Description("Is the Plugin enabled.")]
         public bool IsEnabled { get; set; } = true;
