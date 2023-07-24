@@ -16,7 +16,7 @@ namespace SCP_Kick.com.github.sekasin.scp_kick {
         }
         
         public void OnJoin(VerifiedEventArgs args) {
-            Timing.CallDelayed(0.5f, ()=>{
+            Timing.CallDelayed(1.5f, ()=>{
                 if (_debugMode) {
                     Log.Info(args.Player.Id + args.Player.DisplayNickname);
                     Log.Info("Checking for permission " + _main.Config.Permission + ": " + args.Player.CheckPermission(_main.Config.Permission));
