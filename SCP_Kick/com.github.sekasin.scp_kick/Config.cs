@@ -17,5 +17,8 @@ namespace SCP_Kick.com.github.sekasin.scp_kick {
 
         [Description("Kick message.")]
         public string KickMessage { get; set; } = "You don't have the required permissions to join.";
+        
+        [Description("Url to verify user from.")]
+        public string verificationUrl { get; set; } = "https://isla.tentti.xyz/auth/";
     }
 }

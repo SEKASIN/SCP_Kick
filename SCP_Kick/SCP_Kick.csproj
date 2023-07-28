@@ -11,6 +11,7 @@
         <AssemblyName>SCP_Kick</AssemblyName>
         <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
         <FileAlignment>512</FileAlignment>
+        <LangVersion>10</LangVersion>
     </PropertyGroup>
     <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
         <PlatformTarget>AnyCPU</PlatformTarget>
@@ -36,7 +37,7 @@
           <HintPath>..\packages\EXILED.7.2.0\lib\net48\Assembly-CSharp-Publicized.dll</HintPath>
         </Reference>
         <Reference Include="Assembly-CSharp-firstpass">
-          <HintPath>..\packages\Assembly-CSharp-firstpass.dll</HintPath>
+          <HintPath>F:\JetBrains\Assemblies\Assembly-CSharp-firstpass.dll</HintPath>
         </Reference>
         <Reference Include="CommandSystem.Core, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
           <HintPath>..\packages\EXILED.7.2.0\lib\net48\CommandSystem.Core.dll</HintPath>
@@ -84,9 +85,9 @@
     </ItemGroup>
     <ItemGroup>
         <Compile Include="Properties\AssemblyInfo.cs" />
-        <Compile Include="com.github.tendrilll.scp_kick\Config.cs" />
-        <Compile Include="com.github.tendrilll.scp_kick\EventHandler.cs" />
-        <Compile Include="com.github.tendrilll.scp_kick\Plugin.cs" />
+        <Compile Include="com.github.sekasin.scp_kick\Config.cs" />
+        <Compile Include="com.github.sekasin.scp_kick\EventHandler.cs" />
+        <Compile Include="com.github.sekasin.scp_kick\Plugin.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="packages.config" />
